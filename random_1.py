@@ -8,7 +8,13 @@ def generate_random_mac():
            random.randint(0x00, 0xff)]
     return ':'.join(["%02x" % x for x in mac])
 
-INTERFACE = "enp2s0"  # Değiştirilecek ağ arayüzünün adı
+
+INTERFACE = input("Interface: ") # Değiştirilecek ağ arayüzünün adı
 
 mac = generate_random_mac()
-subprocess.run(["ip", "link", "set", "dev", INTERFACE, "address", mac])
+changed = subprocess.run(["ip", "link", "set", "dev", INTERFACE, "address", mac])
+
+if changed:
+    print("Worked! new Mac adress: "+mac)
+else:
+    print("Failed")
