@@ -9,4 +9,4 @@ For using:<br>
 sudo python random_1.py<br>
 output: "Write Interface:"<br>
 Example:<br>
-![Photo for Mac Changer](photo.png)
+![photo](https://user-images.githubusercontent.com/120639059/208266132-8d01ea4b-5b8d-4b84-bc71-a7d56a924c38.png)
