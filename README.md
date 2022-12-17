@@ -9,5 +9,11 @@ For using:<br>
 sudo python random_1.py<br>
 output: "Write Interface:"<br>
 Example:<br>
-```python
-print("Hello, world!")
+<pre><font color="#4E9A06"><b>marijua@Marijua</b></font>:<font color="#3465A4"><b>~/Masaüstü/important/software/macAdressChanger</b></font>$ sudo python3 random_1.py 
+</pre><br>
+<pre>Interface: enp2s0
+</pre><br>
+<pre>Worked! new Mac adress: 00:16:3e:3b:ff:27
+</pre><br>
+<pre><font color="#4E9A06"><b>marijua@Marijua</b></font>:<font color="#3465A4"><b>~/Masaüstü/important/software/macAdressChanger</b></font>$ ^C
+</pre>
